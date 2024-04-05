@@ -1,0 +1,60 @@
+[
+    {
+        "id": 1,
+        "nombre": "curso de Html",
+        "precio": 1700,
+        "cantidadEnStock": 50,
+        "img": "../img/html.png"
+    },
+    {
+        "id": 2,
+        "nombre": "curso de CSS",
+        "precio": 1000,
+        "cantidadEnStock": 27,
+        "img": "../img/css.png"
+    },
+    {
+        "id": 3,
+        "nombre": "curso de JavaScript",
+        "precio": 1300,
+        "cantidadEnStock": 12,
+        "img": "../img/js.png"
+    },
+    {
+        "id": 4,
+        "nombre": "curso de react",
+        "precio": 2000,
+        "cantidadEnStock": 16,
+        "img": "../img/react.png"
+    },
+    {
+
+        "id": 5,
+        "nombre": "curso de Backend",
+        "precio": 2800,
+        "cantidadEnStock": 19,
+        "img": "../img/node.png"
+    },
+    {
+
+        "id": 6,
+        "nombre": "curso de Python",
+        "precio": 1900,
+        "cantidadEnStock": 7,
+        "img": "../img/python.png"
+    },
+    {
+        "id": 7,
+        "nombre": "curso de Git",
+        "precio": 1300,
+        "cantidadEnStock": 10,
+        "img": "../img/git.png"
+    },
+    {
+        "id": 8,
+        "nombre": "curso de GitHub",
+        "precio": 2100,
+        "cantidadEnStock": 17,
+        "img": "../img/github.png"
+    }
+]

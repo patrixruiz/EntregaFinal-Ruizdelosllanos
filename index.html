@@ -4,99 +4,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejemplo Navbar con Flex</title>
-    <!-- CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css" rel="stylesheet">
     <link rel="stylesheet" href="css/estilo.css">
-    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <title>tercera Entrega coder</title>
 </head>
 
-<body>
-    <header>
-        <img class="logo" src="img/logo.png" alt="Logo de Coderhouse">
-
-        <nav>
-            <ul class="navLink">
-                <li><a href="#"> Inicio </a></li>
-                <li><a href="#"> Cursos </a></li>
-                <li><a href="#"> Contacto </a></li>
-            </ul>
-        </nav>
-
-        <a href="" class="tienda"> Tienda </a>
-    </header>
-
+<body id="inicio">
     <main>
-        <div class="contenedorCursos">
-
-            <div class="curso">
-                <img class="cursoImagen" src="img/html.png" alt="Curso ">
-                <h3 class="cursoTitulo">HTML</h3>
-                <p class="cursoDescripcion">Curso de HTML</p>
-                <p class="cursoPrecio"> $100 </p>
-                <button> Comprar </button>
+        <section class="title">
+            <div>
+                <h1>
+                    <span><img src="img/logo.png" alt="logocoder"></span>
+                </h1>
             </div>
-
-            <div class="curso">
-                <img class="cursoImagen" src="img/css.png" alt="Curso ">
-                <h3 class="cursoTitulo">CSS</h3>
-                <p class="cursoDescripcion">Curso de CSS</p>
-                <p class="cursoPrecio"> $100 </p>
-                <button> Comprar </button>
+        </section>
+        <div class="ingreso">
+            <div class="ingreso--titulo">
+                <h3>Inicio De Sesion</h3>
             </div>
+            <form class="ingreso--form">
 
-            <div class="curso">
-                <img class="cursoImagen" src="img/js.png" alt="Curso ">
-                <h3 class="cursoTitulo">JavaScript</h3>
-                <p class="cursoDescripcion">Curso de JavaScript </p>
-                <p class="cursoPrecio"> $100 </p>
-                <button> Comprar </button>
-            </div>
+                <input type="text" class="Usuario form--valores" required placeholder="Usuario">
 
-            <div class="curso">
-                <img class="cursoImagen" src="img/react.png" alt="Curso ">
-                <h3 class="cursoTitulo">React</h3>
-                <p class="cursoDescripcion">Curso de React</p>
-                <p class="cursoPrecio"> $100 </p>
-                <button> Comprar </button>
-            </div>
+                <input type="password" class="Contraseña form--valores" required placeholder="Contraseña">
 
-            <div class="curso">
-                <img class="cursoImagen" src="img/node.png" alt="Curso ">
-                <h3 class="cursoTitulo">Backend</h3>
-                <p class="cursoDescripcion">Curso de Backend</p>
-                <p class="cursoPrecio"> $100 </p>
-                <button> Comprar </button>
-            </div>
-
-            <div class="curso">
-                <img class="cursoImagen" src="img/python.png" alt="Curso ">
-                <h3 class="cursoTitulo">Python</h3>
-                <p class="cursoDescripcion">Curso de Python</p>
-                <p class="cursoPrecio"> $100 </p>
-                <button> Comprar </button>
-            </div>
-
-            <div class="curso">
-                <img class="cursoImagen" src="img/git.png" alt="Curso ">
-                <h3 class="cursoTitulo">Git</h3>
-                <p class="cursoDescripcion">Curso de Git</p>
-                <p class="cursoPrecio"> $100 </p>
-                <button> Comprar </button>
-            </div>
-
-            <div class="curso">
-                <img class="cursoImagen" src="img/github.png" alt="Curso ">
-                <h3 class="cursoTitulo">GitHub</h3>
-                <p class="cursoDescripcion">Curso de GitHub</p>
-                <p class="cursoPrecio"> $100 </p>
-                <button> Comprar </button>
-            </div>
+                <input type="submit" class="submmit form--valores" value="Iniciar">
+            </form>
+            <p>No tienenes una cuenta ?</p>
+            <a href="pages/Registro.html">Registrarse</a>
+            <p class="aviso"></p>
         </div>
+
+
     </main>
+    <footer>
+        <section class="">
+            <a href="#">mas informacion</a>
+        </section>
+        <section class="redes">
+            <ul>
+                <li><a href="#"><img src="img/MdiFacebookBox.png" alt="MdiFacebookBox"></a></li>
+                <li><a href="#"><img src="img/MdiInstagram.png" alt="MdiInstagram"></a></li>
 
-
-
+            </ul>
+        </section>
+    </footer>
 
 </body>
-
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+<script src="js/Inicio.js"></script>
 </html>
